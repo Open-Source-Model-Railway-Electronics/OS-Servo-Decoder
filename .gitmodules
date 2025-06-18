@@ -1,0 +1,4 @@
+[submodule "software"]
+	path = software
+	url = https://github.com/Open-Source-Model-Railway-Electronics/OS-Servo-Decoder-Core
+	branch = main
