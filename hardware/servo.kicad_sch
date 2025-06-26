@@ -718,8 +718,8 @@
 		(uuid "9e1e789b-3d51-4224-b467-f7460939a24c")
 	)
 	(bus_entry
-		(at 149.86 69.85)
-		(size -2.54 2.54)
+		(at 132.08 69.85)
+		(size 2.54 2.54)
 		(stroke
 			(width 0)
 			(type default)
@@ -727,8 +727,8 @@
 		(uuid "434a5d81-55c8-495e-a6b4-b6200246d49a")
 	)
 	(bus_entry
-		(at 137.16 69.85)
-		(size -2.54 2.54)
+		(at 144.78 69.85)
+		(size 2.54 2.54)
 		(stroke
 			(width 0)
 			(type default)
@@ -797,7 +797,7 @@
 	)
 	(bus
 		(pts
-			(xy 137.16 69.85) (xy 149.86 69.85)
+			(xy 144.78 69.85) (xy 132.08 69.85)
 		)
 		(stroke
 			(width 0)
@@ -814,16 +814,6 @@
 			(type default)
 		)
 		(uuid "4f04b379-7e60-42a9-a834-46b5b715e551")
-	)
-	(bus
-		(pts
-			(xy 129.54 69.85) (xy 137.16 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54a810de-b927-42a7-a1bc-395ad1c28a06")
 	)
 	(wire
 		(pts
@@ -847,7 +837,7 @@
 	)
 	(bus
 		(pts
-			(xy 149.86 69.85) (xy 156.21 69.85)
+			(xy 132.08 69.85) (xy 125.73 69.85)
 		)
 		(stroke
 			(width 0)
@@ -889,13 +879,13 @@
 	)
 	(hierarchical_label "{servo}"
 		(shape input)
-		(at 156.21 69.85 0)
+		(at 125.73 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "7889fb33-dfb3-4f73-8050-53268faf4a4b")
 	)

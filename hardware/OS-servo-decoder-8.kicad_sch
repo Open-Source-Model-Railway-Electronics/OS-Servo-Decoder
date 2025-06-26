@@ -5,263 +5,24 @@
 	(uuid "b6ccf16f-5cc5-4d5a-97fc-20f76ee5c73e")
 	(paper "A4")
 	(lib_symbols
-		(symbol "custom_kicad_lib_sk:connector_3.50mm_4P_horizontal_FEMALE"
+		(symbol "custom_kicad_lib_sk:screwterminal"
+			(pin_numbers hide)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 0) hide)
 			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "u"
+				(at 0 0.127 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Value" "FEMALE"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Connector_Phoenix_MC:PhoenixContact_MC_1,5_4-G-3.5_1x04_P3.50mm_Horizontal"
+			(property "Value" ""
 				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x04, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "connector_3.50mm_4P_horizontal_FEMALE_1_1"
-				(arc
-					(start 0 -4.572)
-					(mid -0.5058 -5.08)
-					(end 0 -5.588)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -2.032)
-					(mid -0.5058 -2.54)
-					(end 0 -3.048)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -5.08) (xy -0.508 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -0.508 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy -0.508 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0.508)
-					(mid -0.5058 0)
-					(end 0 -0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 3.048)
-					(mid -0.5058 2.54)
-					(end 0 2.032)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "power:+5V"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -286,7 +47,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -295,406 +56,30 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
+			(symbol "screwterminal_1_1"
+				(rectangle
+					(start -2.3 2.3)
+					(end 2.3 -2.3)
 					(stroke
 						(width 0)
 						(type default)
+						(color 0 132 0 1)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
+				(circle
+					(center 0 0)
+					(radius 0.762)
 					(stroke
 						(width 0)
 						(type default)
+						(color 137 143 138 1)
 					)
 					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0) hide
-					(name "+5V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "power:+5VA"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5VA"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5VA\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5VA_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5VA_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0) hide
-					(name "+5VA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "power:GND"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "power:VCC"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VCC"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VCC\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VCC_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VCC_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0) hide
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+						(type color)
+						(color 132 132 132 1)
 					)
 				)
 			)
@@ -704,416 +89,300 @@
 		(members "pin1" "pin2")
 	)
 	(bus_alias "switches"
-		(members "sw1" "sw2" "sw3" "sw4" "sw5")
-	)
-	(junction
-		(at 63.5 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e28bebeb-9217-498e-8226-885ddc72b36a")
-	)
-	(wire
-		(pts
-			(xy 90.17 77.47) (xy 90.17 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04b6d43f-2978-45ae-b633-1fd355a5138e")
+		(members "conf" "toggle" "sw[1..8]")
 	)
 	(bus
 		(pts
-			(xy 146.05 55.88) (xy 146.05 44.45)
+			(xy 142.24 38.1) (xy 139.7 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0a6003d3-254f-469c-be17-1d15876daaae")
+		(uuid "14904da0-0408-4e16-9282-2d550e924b21")
 	)
 	(bus
 		(pts
-			(xy 110.49 57.15) (xy 110.49 44.45)
+			(xy 142.24 44.45) (xy 139.7 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0f35a192-1697-4c9f-a6d0-b5997757248f")
+		(uuid "1865db1a-5376-4da6-ac17-4278b3d1a785")
 	)
 	(bus
 		(pts
-			(xy 127 44.45) (xy 127 55.88)
+			(xy 161.29 87.63) (xy 166.37 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1599b58e-d624-4f4a-9f61-9530d08aae93")
+		(uuid "1f352936-5664-4597-b360-68367de37382")
 	)
 	(bus
 		(pts
-			(xy 137.16 57.15) (xy 166.37 57.15)
+			(xy 90.17 63.5) (xy 95.25 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "16bf54e2-5270-40c0-9e72-33ec1c92c1cd")
-	)
-	(wire
-		(pts
-			(xy 109.22 104.14) (xy 119.38 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ebef86e-3139-4a6e-9ff0-b11540755452")
-	)
-	(wire
-		(pts
-			(xy 64.77 115.57) (xy 80.01 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "309dffa2-c5e5-4afd-8927-a59849457d62")
-	)
-	(wire
-		(pts
-			(xy 62.23 118.11) (xy 80.01 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3bf63bc3-c1b2-46c7-8ba9-0f25015cbd10")
-	)
-	(wire
-		(pts
-			(xy 45.72 74.93) (xy 53.34 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45411f17-10f2-4ff9-81ce-b348c09a9aa3")
-	)
-	(wire
-		(pts
-			(xy 63.5 83.82) (xy 63.5 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "459a34f7-087e-4d8f-9cff-7ed4ecae26cd")
-	)
-	(wire
-		(pts
-			(xy 43.18 90.17) (xy 46.99 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b88614e-50fc-4f7f-915e-0844c2f4ac7c")
-	)
-	(wire
-		(pts
-			(xy 93.98 125.73) (xy 93.98 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e7e4b56-f28c-4907-826c-6901d6f2940e")
+		(uuid "20e2773e-66d7-4553-ab3d-dd8fea1cb5d1")
 	)
 	(bus
 		(pts
-			(xy 153.67 93.98) (xy 165.1 93.98)
+			(xy 110.49 38.1) (xy 113.03 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "543823bb-c901-48b7-9ddd-2a19a2a10d74")
-	)
-	(wire
-		(pts
-			(xy 43.18 92.71) (xy 64.77 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b45ba03-0f21-45ea-b9fa-c3e5c5fc3fb8")
+		(uuid "482e71bd-35dc-4b24-b0d6-b2e33c229fae")
 	)
 	(bus
 		(pts
-			(xy 166.37 57.15) (xy 166.37 44.45)
+			(xy 161.29 104.14) (xy 166.37 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "622814f1-7d80-431b-a1d7-7f5c7932dd94")
-	)
-	(wire
-		(pts
-			(xy 43.18 95.25) (xy 62.23 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69147cd4-52bb-4f67-b26b-bd8e7fa57735")
+		(uuid "57a39836-d8b0-40e1-bd9f-a2af39412030")
 	)
 	(bus
 		(pts
-			(xy 137.16 72.39) (xy 137.16 57.15)
+			(xy 142.24 44.45) (xy 142.24 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6e0dc473-b96f-449d-81dc-2a37a56015c3")
-	)
-	(wire
-		(pts
-			(xy 64.77 92.71) (xy 64.77 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7909661c-3e1e-4505-826e-8e2216c05487")
-	)
-	(wire
-		(pts
-			(xy 63.5 67.31) (xy 80.01 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8070a7b5-6f5f-41b9-a819-9645105c432d")
-	)
-	(wire
-		(pts
-			(xy 62.23 95.25) (xy 62.23 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ef20e4b-735f-41a4-85dc-4a4adbdc62f9")
+		(uuid "5fbb8ebf-2e4d-46a0-9c5e-b9277d9d02eb")
 	)
 	(bus
 		(pts
-			(xy 134.62 72.39) (xy 134.62 55.88)
+			(xy 90.17 120.65) (xy 95.25 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a786621a-08e1-4eb6-92a2-c78bbad5d56c")
+		(uuid "69f3ea78-45fb-47eb-a568-3ff7e163658d")
 	)
 	(bus
 		(pts
-			(xy 127 55.88) (xy 132.08 55.88)
+			(xy 161.29 72.39) (xy 166.37 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b0a1ba06-7db4-4427-a444-cda489912f55")
-	)
-	(wire
-		(pts
-			(xy 101.6 67.31) (xy 105.41 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3d08e44-5525-4bf4-aaa5-1f2203b26475")
-	)
-	(wire
-		(pts
-			(xy 63.5 64.77) (xy 63.5 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3fb8bbd-cbce-47ac-a4bc-e38d7c88f043")
-	)
-	(wire
-		(pts
-			(xy 63.5 71.12) (xy 63.5 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9c41e83-3c43-4390-ae38-5eb3bbeffc80")
-	)
-	(wire
-		(pts
-			(xy 43.18 87.63) (xy 45.72 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbf42a89-a90c-4a47-be62-3e93836886c4")
-	)
-	(wire
-		(pts
-			(xy 46.99 90.17) (xy 46.99 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdf22e94-4f1a-4555-8d8e-4ac48a54bd7e")
-	)
-	(wire
-		(pts
-			(xy 152.4 69.85) (xy 152.4 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d15298f6-7593-467d-87b7-0856400bb06b")
-	)
-	(wire
-		(pts
-			(xy 109.22 118.11) (xy 109.22 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d187739d-7e3a-445a-918d-39f61856301e")
-	)
-	(wire
-		(pts
-			(xy 46.99 77.47) (xy 53.34 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3c0ab40-7c93-424f-a59c-4783b1f3bbaa")
+		(uuid "6c7bce6d-8124-4659-89ad-be69356fb468")
 	)
 	(bus
 		(pts
-			(xy 134.62 55.88) (xy 146.05 55.88)
+			(xy 110.49 38.1) (xy 110.49 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d697fe80-fbe0-4f00-bf5b-1654c29cd636")
+		(uuid "715bab5a-5d05-43b4-9f7a-a95d5d4b2d93")
 	)
 	(bus
 		(pts
-			(xy 132.08 55.88) (xy 132.08 72.39)
+			(xy 90.17 101.6) (xy 95.25 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d9c803f2-6bd1-4603-8227-beeb34b72596")
+		(uuid "7a70e558-f07f-4251-b248-500f03ecacc7")
 	)
 	(wire
 		(pts
-			(xy 93.98 110.49) (xy 93.98 111.76)
+			(xy 113.03 54.61) (xy 110.49 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e3570e1e-9baf-49f8-bb88-08710795e914")
-	)
-	(wire
-		(pts
-			(xy 137.16 109.22) (xy 137.16 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e388c86f-fa1d-4051-a92c-341329654b3e")
+		(uuid "8277c1e9-e97b-4c70-9423-739f54554c78")
 	)
 	(bus
 		(pts
-			(xy 129.54 57.15) (xy 110.49 57.15)
+			(xy 90.17 82.55) (xy 95.25 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e7d46f28-fa48-4670-9943-f807cc213083")
+		(uuid "848ace32-c1ff-455a-a333-e9d50b3b5c98")
 	)
 	(bus
 		(pts
-			(xy 129.54 72.39) (xy 129.54 57.15)
+			(xy 110.49 44.45) (xy 113.03 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "efca83ed-b690-4d06-beee-fb28ea555c6d")
+		(uuid "a6e77e79-bda3-4b5e-8a14-98ea28080de5")
+	)
+	(bus
+		(pts
+			(xy 146.05 52.07) (xy 167.64 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acc63a7a-cea8-470c-b679-394c5344993f")
+	)
+	(bus
+		(pts
+			(xy 139.7 93.98) (xy 147.32 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3e44316-e512-432c-bb7b-d4ff7172e6a5")
+	)
+	(bus
+		(pts
+			(xy 146.05 52.07) (xy 146.05 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0938810-c22d-4b5f-ae6c-bd8c6b236a29")
 	)
 	(wire
 		(pts
-			(xy 101.6 71.12) (xy 110.49 71.12)
+			(xy 110.49 54.61) (xy 110.49 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f58c7758-ba99-4920-9384-da5a518faf5b")
+		(uuid "d37c5b36-e1bc-4943-985b-0afe6e359b6a")
+	)
+	(bus
+		(pts
+			(xy 161.29 120.65) (xy 166.37 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d76bc978-edbe-4bbe-beeb-0c4fd965da41")
+	)
+	(bus
+		(pts
+			(xy 146.05 60.96) (xy 139.7 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dea4d6e3-fbdd-4343-a613-2a6f41fbea02")
+	)
+	(bus
+		(pts
+			(xy 107.95 111.76) (xy 147.32 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7235f46-dc16-404e-bedc-965e8019500f")
 	)
 	(wire
 		(pts
-			(xy 101.6 118.11) (xy 109.22 118.11)
+			(xy 110.49 60.96) (xy 113.03 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f61689a9-7b68-4946-bd57-fc68df46d36b")
+		(uuid "faaac3b4-2617-47b6-a026-970be2989770")
 	)
-	(wire
-		(pts
-			(xy 45.72 87.63) (xy 45.72 74.93)
-		)
+	(circle
+		(center 177.8 25.4)
+		(radius 2.6941)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f6c454dd-9395-4142-a48f-a416267c9c28")
+		(fill
+			(type none)
+		)
+		(uuid 3e3206bd-aeef-4c72-9532-97cfb212efc1)
+	)
+	(circle
+		(center 78.74 133.985)
+		(radius 2.6941)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 77ba4ea3-5469-4905-8cd9-3800047b0259)
+	)
+	(rectangle
+		(start 74.295 20.955)
+		(end 182.245 137.16)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8fa5b19e-36ca-4b91-84c9-aaa5ffdc9807)
+	)
+	(circle
+		(center 79.375 26.67)
+		(radius 2.6941)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ca0e822a-e06a-4643-930f-41a9310f8b0b)
+	)
+	(circle
+		(center 177.165 133.985)
+		(radius 2.6941)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ca81b7a3-adc0-4728-8fdd-5983b4c1823c)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 137.16 113.03 0)
+		(lib_id "custom_kicad_lib_sk:screwterminal")
+		(at 77.47 76.835 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0e1fa2af-cb83-4105-8054-ec311388cedc")
-		(property "Reference" "#PWR0108"
-			(at 137.16 119.38 0)
+		(uuid "07daa659-c014-4640-8918-109f5b2c35bd")
+		(property "Reference" "u101"
+			(at 77.343 76.835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1121,16 +390,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 137.16 118.11 0)
+		(property "Value" "~"
+			(at 77.47 73.025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 113.03 0)
+			(at 77.47 76.835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1139,7 +409,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 113.03 0)
+			(at 77.47 76.835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1148,7 +418,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 113.03 0)
+			(at 77.47 76.835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1156,30 +426,27 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "3119a99d-939a-4260-aee7-169e58cf4591")
-		)
 		(instances
-			(project "OS-servoDriver"
+			(project "OS-servo-decoder-8"
 				(path "/b6ccf16f-5cc5-4d5a-97fc-20f76ee5c73e"
-					(reference "#PWR0108")
+					(reference "u101")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 152.4 69.85 0)
+		(lib_id "custom_kicad_lib_sk:screwterminal")
+		(at 78.105 57.15 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "15e52962-e5e7-4444-b3d3-14a74a1c4c9f")
-		(property "Reference" "#PWR0109"
-			(at 152.4 73.66 0)
+		(uuid "09fd6cbb-1c1e-435c-a1f4-5de6fb5d030d")
+		(property "Reference" "u110"
+			(at 77.978 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1187,16 +454,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 152.4 64.77 0)
+		(property "Value" "~"
+			(at 78.105 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 69.85 0)
+			(at 78.105 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1205,7 +473,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 69.85 0)
+			(at 78.105 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1214,7 +482,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 152.4 69.85 0)
+			(at 78.105 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1222,30 +490,27 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "25ca246e-d35b-434f-86c6-166c9b5fa17a")
-		)
 		(instances
-			(project "OS-servoDriver"
+			(project "OS-servo-decoder-8"
 				(path "/b6ccf16f-5cc5-4d5a-97fc-20f76ee5c73e"
-					(reference "#PWR0109")
+					(reference "u110")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 93.98 129.54 0)
+		(lib_id "custom_kicad_lib_sk:screwterminal")
+		(at 124.46 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1b6bf410-d350-4df2-8c35-390227cc5824")
-		(property "Reference" "#PWR0105"
-			(at 93.98 135.89 0)
+		(uuid "104a0aca-1dfe-4325-9c6c-dbfe8dbed4c8")
+		(property "Reference" "u114"
+			(at 124.46 25.273 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1253,16 +518,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 93.98 134.62 0)
+		(property "Value" "~"
+			(at 128.27 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 129.54 0)
+			(at 124.46 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1271,7 +537,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 129.54 0)
+			(at 124.46 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1280,7 +546,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 93.98 129.54 0)
+			(at 124.46 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1288,30 +554,27 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "0aca0c13-c45c-433e-b095-b3b1562b5e58")
-		)
 		(instances
-			(project "OS-servoDriver"
+			(project "OS-servo-decoder-8"
 				(path "/b6ccf16f-5cc5-4d5a-97fc-20f76ee5c73e"
-					(reference "#PWR0105")
+					(reference "u114")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 93.98 110.49 0)
+		(lib_id "custom_kicad_lib_sk:screwterminal")
+		(at 77.47 125.095 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "31732415-4827-4030-bcdd-a2a47777ecf5")
-		(property "Reference" "#PWR0104"
-			(at 93.98 114.3 0)
+		(uuid "1855bce4-3688-448d-ab94-e88a73be3cd2")
+		(property "Reference" "u109"
+			(at 77.343 125.095 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1319,16 +582,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 93.98 105.41 0)
+		(property "Value" "~"
+			(at 77.47 121.285 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 110.49 0)
+			(at 77.47 125.095 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1337,7 +601,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 110.49 0)
+			(at 77.47 125.095 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1346,7 +610,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 93.98 110.49 0)
+			(at 77.47 125.095 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1354,30 +618,27 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "1373306f-9ad2-462a-821c-4a22a1790ce2")
-		)
 		(instances
-			(project "OS-servoDriver"
+			(project "OS-servo-decoder-8"
 				(path "/b6ccf16f-5cc5-4d5a-97fc-20f76ee5c73e"
-					(reference "#PWR0104")
+					(reference "u109")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 63.5 85.09 0)
+		(lib_id "custom_kicad_lib_sk:screwterminal")
+		(at 179.07 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7adb13cd-7ef7-4d82-8dd0-5e647e6718e9")
-		(property "Reference" "#PWR0110"
-			(at 63.5 91.44 0)
+		(uuid "19011ca5-9adf-4fee-b123-c1f226d70499")
+		(property "Reference" "u125"
+			(at 179.07 109.093 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1385,16 +646,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 63.5 90.17 0)
+		(property "Value" "~"
+			(at 182.88 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 85.09 0)
+			(at 179.07 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1403,7 +665,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 85.09 0)
+			(at 179.07 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1412,7 +674,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 63.5 85.09 0)
+			(at 179.07 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1420,46 +682,27 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "d06d6c3e-4083-40a5-a9bb-736730ad0f2a")
-		)
 		(instances
-			(project "OS-servoDriver"
+			(project "OS-servo-decoder-8"
 				(path "/b6ccf16f-5cc5-4d5a-97fc-20f76ee5c73e"
-					(reference "#PWR0110")
+					(reference "u125")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "custom_kicad_lib_sk:connector_3.50mm_4P_horizontal_FEMALE")
-		(at 38.1 92.71 180)
+		(lib_id "custom_kicad_lib_sk:screwterminal")
+		(at 134.62 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "afcfaf4d-1216-45ea-9ba2-505ecd0b256b")
-		(property "Reference" "J101"
-			(at 38.735 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FEMALE"
-			(at 38.735 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Phoenix_MC:PhoenixContact_MC_1,5_4-G-3.5_1x04_P3.50mm_Horizontal"
-			(at 38.1 92.71 0)
+		(uuid "1cdc1a75-5bea-4aed-9837-9c02e111432d")
+		(property "Reference" "u116"
+			(at 134.62 25.273 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1467,74 +710,17 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 38.1 92.71 0)
+		(property "Value" "~"
+			(at 138.43 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 38.1 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "57f6e215-4f80-4a9d-a8b8-1dc0b4137979")
-		)
-		(pin "3"
-			(uuid "f07dd1f7-e708-4b21-bd39-c2e5a2c5f34a")
-		)
-		(pin "4"
-			(uuid "e05ba661-e063-44c1-978c-702824618885")
-		)
-		(pin "2"
-			(uuid "aa3ad183-2b29-43c3-af20-b828a54f5c4e")
-		)
-		(instances
-			(project "OS-servoDriver"
-				(path "/b6ccf16f-5cc5-4d5a-97fc-20f76ee5c73e"
-					(reference "J101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5VA")
-		(at 105.41 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b5707ae4-42a7-488b-b838-53ff8b9adda9")
-		(property "Reference" "#PWR0103"
-			(at 105.41 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5VA"
-			(at 105.41 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 67.31 0)
+			(at 134.62 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1543,7 +729,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 67.31 0)
+			(at 134.62 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1552,7 +738,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 105.41 67.31 0)
+			(at 134.62 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1560,30 +746,27 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "10363bb0-7fa0-409c-8855-f0d02d40a34e")
-		)
 		(instances
-			(project "OS-servoDriver"
+			(project "OS-servo-decoder-8"
 				(path "/b6ccf16f-5cc5-4d5a-97fc-20f76ee5c73e"
-					(reference "#PWR0103")
+					(reference "u116")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 63.5 64.77 0)
+		(lib_id "custom_kicad_lib_sk:screwterminal")
+		(at 129.54 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bd21f85a-0e17-42c1-bebd-3235a69a5c1f")
-		(property "Reference" "#PWR0101"
-			(at 63.5 68.58 0)
+		(uuid "1df2d8a0-3c16-4df2-a4ab-874285207bba")
+		(property "Reference" "u115"
+			(at 129.54 25.273 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1591,16 +774,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
-			(at 63.5 59.69 0)
+		(property "Value" "~"
+			(at 133.35 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 64.77 0)
+			(at 129.54 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1609,7 +793,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 64.77 0)
+			(at 129.54 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1618,7 +802,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 63.5 64.77 0)
+			(at 129.54 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1626,30 +810,27 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "293d8ffc-60a1-4a1e-bcf8-c3b32d77cbaa")
-		)
 		(instances
-			(project "OS-servoDriver"
+			(project "OS-servo-decoder-8"
 				(path "/b6ccf16f-5cc5-4d5a-97fc-20f76ee5c73e"
-					(reference "#PWR0101")
+					(reference "u115")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 90.17 80.01 0)
+		(lib_id "custom_kicad_lib_sk:screwterminal")
+		(at 77.47 86.995 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e8884cab-7727-476d-90e7-5a8e35db9b9f")
-		(property "Reference" "#PWR0107"
-			(at 90.17 86.36 0)
+		(uuid "22e09e2a-77e3-4b18-876d-345865672360")
+		(property "Reference" "u103"
+			(at 77.343 86.995 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1657,16 +838,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 90.17 85.09 0)
+		(property "Value" "~"
+			(at 77.47 83.185 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 80.01 0)
+			(at 77.47 86.995 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1675,7 +857,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 80.01 0)
+			(at 77.47 86.995 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1684,7 +866,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 90.17 80.01 0)
+			(at 77.47 86.995 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1692,30 +874,27 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "3bf4645b-7273-455b-85be-986894be9caa")
-		)
 		(instances
-			(project "OS-servoDriver"
+			(project "OS-servo-decoder-8"
 				(path "/b6ccf16f-5cc5-4d5a-97fc-20f76ee5c73e"
-					(reference "#PWR0107")
+					(reference "u103")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 110.49 71.12 0)
+		(lib_id "custom_kicad_lib_sk:screwterminal")
+		(at 78.105 62.23 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e9feaee8-ec91-469a-aa38-b8808e1e9922")
-		(property "Reference" "#PWR0111"
-			(at 110.49 74.93 0)
+		(uuid "243f1ac1-a2e5-49fe-82f8-d7c71e072477")
+		(property "Reference" "u111"
+			(at 77.978 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1723,16 +902,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 110.49 66.04 0)
+		(property "Value" "~"
+			(at 78.105 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 71.12 0)
+			(at 78.105 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1741,7 +921,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 71.12 0)
+			(at 78.105 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1750,7 +930,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 110.49 71.12 0)
+			(at 78.105 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1758,32 +938,1245 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "42e9501d-233f-4e54-a39c-b299cf1121c2")
+		(instances
+			(project "OS-servo-decoder-8"
+				(path "/b6ccf16f-5cc5-4d5a-97fc-20f76ee5c73e"
+					(reference "u111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom_kicad_lib_sk:screwterminal")
+		(at 77.47 95.885 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "308c9ce8-cabd-491e-b16b-665b85f579d5")
+		(property "Reference" "u104"
+			(at 77.343 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 77.47 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(instances
-			(project "OS-servoDriver"
+			(project "OS-servo-decoder-8"
 				(path "/b6ccf16f-5cc5-4d5a-97fc-20f76ee5c73e"
-					(reference "#PWR0111")
+					(reference "u104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom_kicad_lib_sk:screwterminal")
+		(at 119.38 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39d35079-6e35-4237-9e30-df3701537a10")
+		(property "Reference" "u113"
+			(at 119.38 25.273 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 123.19 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "OS-servo-decoder-8"
+				(path "/b6ccf16f-5cc5-4d5a-97fc-20f76ee5c73e"
+					(reference "u113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom_kicad_lib_sk:screwterminal")
+		(at 179.07 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e5bdb19-e9d8-4bb6-b302-7925dd68f4a2")
+		(property "Reference" "u117"
+			(at 179.07 65.913 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 182.88 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "OS-servo-decoder-8"
+				(path "/b6ccf16f-5cc5-4d5a-97fc-20f76ee5c73e"
+					(reference "u117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom_kicad_lib_sk:screwterminal")
+		(at 179.07 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ea94a12-3ed4-44bb-bab4-5bad00b9d577")
+		(property "Reference" "u119"
+			(at 179.07 76.073 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 182.88 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "OS-servo-decoder-8"
+				(path "/b6ccf16f-5cc5-4d5a-97fc-20f76ee5c73e"
+					(reference "u119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom_kicad_lib_sk:screwterminal")
+		(at 179.07 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b1a7fbf-f5a0-4540-9beb-4a410a3b3d14")
+		(property "Reference" "u124"
+			(at 179.07 104.013 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 182.88 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "OS-servo-decoder-8"
+				(path "/b6ccf16f-5cc5-4d5a-97fc-20f76ee5c73e"
+					(reference "u124")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom_kicad_lib_sk:screwterminal")
+		(at 179.07 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b4f9dad-12e4-4e72-bb26-e08e8e823639")
+		(property "Reference" "u126"
+			(at 179.07 115.443 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 182.88 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/b6ccf16f-5cc5-4d5a-97fc-20f76ee5c73e"
+					(reference "u126")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom_kicad_lib_sk:screwterminal")
+		(at 179.07 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6cfe9338-0071-4fc0-8024-dd501bef716b")
+		(property "Reference" "u128"
+			(at 179.07 125.603 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 182.88 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "OS-servo-decoder-8"
+				(path "/b6ccf16f-5cc5-4d5a-97fc-20f76ee5c73e"
+					(reference "u128")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom_kicad_lib_sk:screwterminal")
+		(at 77.47 106.045 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6dca9629-bbfc-49b8-857e-bb11facbd522")
+		(property "Reference" "u106"
+			(at 77.343 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 77.47 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "OS-servo-decoder-8"
+				(path "/b6ccf16f-5cc5-4d5a-97fc-20f76ee5c73e"
+					(reference "u106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom_kicad_lib_sk:screwterminal")
+		(at 77.47 114.935 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "822b04cb-2a5f-4cc0-af44-e1cf87065552")
+		(property "Reference" "u107"
+			(at 77.343 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 77.47 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "OS-servo-decoder-8"
+				(path "/b6ccf16f-5cc5-4d5a-97fc-20f76ee5c73e"
+					(reference "u107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom_kicad_lib_sk:screwterminal")
+		(at 179.07 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "864b0e45-4bf3-4781-9011-8570e965477d")
+		(property "Reference" "u122"
+			(at 179.07 92.583 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 182.88 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "OS-servo-decoder-8"
+				(path "/b6ccf16f-5cc5-4d5a-97fc-20f76ee5c73e"
+					(reference "u122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom_kicad_lib_sk:screwterminal")
+		(at 179.07 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9aaf1a2d-dfc2-4684-a8a7-789e8bf105e6")
+		(property "Reference" "u123"
+			(at 179.07 98.933 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 182.88 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "OS-servo-decoder-8"
+				(path "/b6ccf16f-5cc5-4d5a-97fc-20f76ee5c73e"
+					(reference "u123")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom_kicad_lib_sk:screwterminal")
+		(at 77.47 100.965 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2867638-d4cf-4431-9435-b8ede4cd86ae")
+		(property "Reference" "u105"
+			(at 77.343 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 77.47 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "OS-servo-decoder-8"
+				(path "/b6ccf16f-5cc5-4d5a-97fc-20f76ee5c73e"
+					(reference "u105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom_kicad_lib_sk:screwterminal")
+		(at 77.47 120.015 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d754c949-fd2f-4f1a-83ec-71b58b93df70")
+		(property "Reference" "u108"
+			(at 77.343 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 77.47 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "OS-servo-decoder-8"
+				(path "/b6ccf16f-5cc5-4d5a-97fc-20f76ee5c73e"
+					(reference "u108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom_kicad_lib_sk:screwterminal")
+		(at 77.47 81.915 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8a54093-8aaf-49ed-951b-37cf3c58f14d")
+		(property "Reference" "u102"
+			(at 77.343 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 77.47 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "OS-servo-decoder-8"
+				(path "/b6ccf16f-5cc5-4d5a-97fc-20f76ee5c73e"
+					(reference "u102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom_kicad_lib_sk:screwterminal")
+		(at 78.105 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e35b03b0-d225-4a98-829e-2c2727bad165")
+		(property "Reference" "u112"
+			(at 77.978 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 78.105 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.105 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.105 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.105 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "OS-servo-decoder-8"
+				(path "/b6ccf16f-5cc5-4d5a-97fc-20f76ee5c73e"
+					(reference "u112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom_kicad_lib_sk:screwterminal")
+		(at 179.07 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e528c57c-4e5b-4899-bc97-dc4d1fb79328")
+		(property "Reference" "u127"
+			(at 179.07 120.523 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 182.88 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "OS-servo-decoder-8"
+				(path "/b6ccf16f-5cc5-4d5a-97fc-20f76ee5c73e"
+					(reference "u127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom_kicad_lib_sk:screwterminal")
+		(at 179.07 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f52cecb4-0428-4a8f-a807-a3e297ce9f34")
+		(property "Reference" "u120"
+			(at 179.07 82.423 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 182.88 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "OS-servo-decoder-8"
+				(path "/b6ccf16f-5cc5-4d5a-97fc-20f76ee5c73e"
+					(reference "u120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom_kicad_lib_sk:screwterminal")
+		(at 179.07 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb38ed0f-f093-45de-85f0-6317fe298c6b")
+		(property "Reference" "u118"
+			(at 179.07 70.993 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 182.88 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "OS-servo-decoder-8"
+				(path "/b6ccf16f-5cc5-4d5a-97fc-20f76ee5c73e"
+					(reference "u118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom_kicad_lib_sk:screwterminal")
+		(at 179.07 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd5b24cf-e2b8-4de5-be40-179b3360a273")
+		(property "Reference" "u121"
+			(at 179.07 87.503 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 182.88 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "OS-servo-decoder-8"
+				(path "/b6ccf16f-5cc5-4d5a-97fc-20f76ee5c73e"
+					(reference "u121")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(sheet
-		(at 100.33 30.48)
-		(size 12.7 13.97)
-		(fields_autoplaced yes)
+		(at 166.37 62.865)
+		(size 15.24 16.51)
 		(stroke
 			(width 0.1524)
 			(type solid)
+			(color 0 132 132 1)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 194 194 194 1.0000)
 		)
 		(uuid "073313b1-15a5-4059-84ce-afab649f2c9c")
 		(property "Sheetname" "servo1-2"
-			(at 100.33 29.7684 0)
+			(at 167.132 77.216 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1792,16 +2185,17 @@
 			)
 		)
 		(property "Sheetfile" "servo.kicad_sch"
-			(at 100.33 45.0346 0)
+			(at 166.37 76.1496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(pin "{servo}" input
-			(at 110.49 44.45 270)
+			(at 166.37 72.39 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1811,7 +2205,7 @@
 			(uuid "9a51cfd4-fbb6-4b16-af82-a51e0d69fe33")
 		)
 		(instances
-			(project "OS-servoDriver"
+			(project "OS-servo-decoder-8"
 				(path "/b6ccf16f-5cc5-4d5a-97fc-20f76ee5c73e"
 					(page "7")
 				)
@@ -1819,19 +2213,19 @@
 		)
 	)
 	(sheet
-		(at 165.1 88.9)
-		(size 22.86 10.16)
-		(fields_autoplaced yes)
+		(at 167.64 31.75)
+		(size 12.7 27.94)
 		(stroke
 			(width 0.1524)
 			(type solid)
+			(color 0 132 132 1)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 194 194 194 1.0000)
 		)
 		(uuid "07a071ae-4229-4799-a566-e8588f45e628")
 		(property "Sheetname" "switches"
-			(at 165.1 88.1884 0)
+			(at 170.434 34.798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1840,16 +2234,17 @@
 			)
 		)
 		(property "Sheetfile" "switches.kicad_sch"
-			(at 165.1 99.6446 0)
+			(at 167.64 41.8596 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
-		(pin "{switches}" input
-			(at 165.1 93.98 180)
+		(pin "{switches}" output
+			(at 167.64 52.07 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1859,7 +2254,7 @@
 			(uuid "5ade45fb-6915-421a-aacd-6ec28f020aae")
 		)
 		(instances
-			(project "OS-servoDriver"
+			(project "OS-servo-decoder-8"
 				(path "/b6ccf16f-5cc5-4d5a-97fc-20f76ee5c73e"
 					(page "6")
 				)
@@ -1867,19 +2262,19 @@
 		)
 	)
 	(sheet
-		(at 53.34 71.12)
-		(size 17.78 12.7)
-		(fields_autoplaced yes)
+		(at 95.25 54.61)
+		(size 12.7 74.295)
 		(stroke
 			(width 0.1524)
 			(type solid)
+			(color 0 132 132 1)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 194 194 194 1.0000)
 		)
-		(uuid "0c27c8b7-3734-4129-8cd0-d3d033ef2608")
-		(property "Sheetname" "D_bridge"
-			(at 53.34 70.4084 0)
+		(uuid "0fe20f89-267d-492d-b8ed-25c377e5c21f")
+		(property "Sheetname" "ULN2803"
+			(at 97.028 57.785 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1887,57 +2282,68 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "D_bridge.kicad_sch"
-			(at 53.34 84.4046 0)
+		(property "Sheetfile" "ULN2803.kicad_sch"
+			(at 95.25 112.9796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
-		(pin "GND" input
-			(at 63.5 83.82 270)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "56d8b095-ec58-4a6b-99f1-c9a6ef61b6a1")
-		)
-		(pin "Vout" input
-			(at 63.5 71.12 90)
+		(pin "uln[1..8]" input
+			(at 107.95 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "1c62e008-9a26-42d5-aab2-be07808b59c1")
+			(uuid "aa8b9a00-9793-4f77-963a-d3849113ae73")
 		)
-		(pin "AC_1" input
-			(at 53.34 74.93 180)
+		(pin "1{relays}" output
+			(at 95.25 63.5 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6a5d807c-bb3b-4af8-9b31-7d5290ae7aaf")
+			(uuid "caf41403-85b7-4e59-9bec-b2c83f817bbc")
 		)
-		(pin "AC_2" input
-			(at 53.34 77.47 180)
+		(pin "2{relays}" output
+			(at 95.25 82.55 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d2b2dae3-24bd-4bfc-94f9-3ec70a64c961")
+			(uuid "032fb26f-4caf-4537-b0db-d80715c56271")
+		)
+		(pin "3{relays}" output
+			(at 95.25 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8e3af8e8-4436-4c9e-bdcc-163e84713878")
+		)
+		(pin "4{relays}" output
+			(at 95.25 120.65 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "df2ee3d8-32f7-4e70-b59d-a4f67c095ac8")
 		)
 		(instances
-			(project "OS-servoDriver"
+			(project "OS-servo-decoder-8"
 				(path "/b6ccf16f-5cc5-4d5a-97fc-20f76ee5c73e"
 					(page "11")
 				)
@@ -1945,19 +2351,19 @@
 		)
 	)
 	(sheet
-		(at 80.01 111.76)
-		(size 21.59 13.97)
-		(fields_autoplaced yes)
+		(at 113.03 41.91)
+		(size 12.7 13.97)
 		(stroke
 			(width 0.1524)
 			(type solid)
+			(color 0 132 132 1)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 194 194 194 1.0000)
 		)
 		(uuid "1efd0b4f-2acb-4126-88e4-4e4c50af21d3")
 		(property "Sheetname" "DCC"
-			(at 80.01 111.0484 0)
+			(at 118.745 50.546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1966,66 +2372,37 @@
 			)
 		)
 		(property "Sheetfile" "DCC.kicad_sch"
-			(at 80.01 126.3146 0)
+			(at 113.03 56.4646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
-		(pin "5V" input
-			(at 93.98 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "553a4e39-ec67-41e3-9636-109118eea48a")
-		)
-		(pin "DCC_TTL" input
-			(at 101.6 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "be3ab05d-a8d4-44a9-813f-8821a1defdb9")
-		)
-		(pin "GND" input
-			(at 93.98 125.73 270)
+		(pin "DCC_TTL" output
+			(at 113.03 54.61 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "7693d8f4-a9b1-4fbf-a0f3-4d91ee833d97")
+			(uuid "53de3c79-8628-4a82-bcec-4b8ca9207c2c")
 		)
-		(pin "DCC_A" input
-			(at 80.01 115.57 180)
+		(pin "{DCC}" input
+			(at 113.03 44.45 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "2bdff1ef-6e73-4305-aa19-f8d6a2938d9c")
-		)
-		(pin "DCC_B" input
-			(at 80.01 118.11 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "7edf53f5-c825-46d1-ae19-58ba7aa77f41")
+			(uuid "5b5a7cce-d718-4135-83a7-eed554d7a852")
 		)
 		(instances
-			(project "OS-servoDriver"
+			(project "OS-servo-decoder-8"
 				(path "/b6ccf16f-5cc5-4d5a-97fc-20f76ee5c73e"
 					(page "3")
 				)
@@ -2033,19 +2410,19 @@
 		)
 	)
 	(sheet
-		(at 119.38 30.48)
-		(size 12.7 13.97)
-		(fields_autoplaced yes)
+		(at 166.37 80.01)
+		(size 15.24 15.24)
 		(stroke
 			(width 0.1524)
 			(type solid)
+			(color 0 132 132 1)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 194 194 194 1.0000)
 		)
 		(uuid "310451f7-f107-489c-855a-07846e0ff657")
 		(property "Sheetname" "servo3-4"
-			(at 119.38 29.7684 0)
+			(at 167.386 92.202 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2054,16 +2431,17 @@
 			)
 		)
 		(property "Sheetfile" "servo.kicad_sch"
-			(at 119.38 45.0346 0)
+			(at 166.37 93.2946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(pin "{servo}" input
-			(at 127 44.45 270)
+			(at 166.37 87.63 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2073,7 +2451,7 @@
 			(uuid "70effe05-8940-4da1-89fb-db7e0b5e58cf")
 		)
 		(instances
-			(project "OS-servoDriver"
+			(project "OS-servo-decoder-8"
 				(path "/b6ccf16f-5cc5-4d5a-97fc-20f76ee5c73e"
 					(page "8")
 				)
@@ -2081,19 +2459,117 @@
 		)
 	)
 	(sheet
-		(at 80.01 64.77)
-		(size 21.59 12.7)
-		(fields_autoplaced yes)
+		(at 74.93 74.295)
+		(size 15.24 16.51)
 		(stroke
 			(width 0.1524)
 			(type solid)
+			(color 0 132 132 1)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 194 194 194 1.0000)
+		)
+		(uuid "6a313f99-4f91-48d5-8f90-ee9987c0a938")
+		(property "Sheetname" "relay2"
+			(at 80.899 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "relayConnector.kicad_sch"
+			(at 74.93 91.3896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "{relays}" input
+			(at 90.17 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d84c497f-ffcb-41a0-8c01-8b2b8cf2a57f")
+		)
+		(instances
+			(project "OS-servo-decoder-8"
+				(path "/b6ccf16f-5cc5-4d5a-97fc-20f76ee5c73e"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 74.93 112.395)
+		(size 15.24 16.51)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 132 132 1)
+		)
+		(fill
+			(color 194 194 194 1.0000)
+		)
+		(uuid "74c6299e-03df-4443-bb9d-5ea65c4f1a93")
+		(property "Sheetname" "relay4"
+			(at 80.899 114.554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "relayConnector.kicad_sch"
+			(at 74.93 129.4896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "{relays}" input
+			(at 90.17 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cda7a16f-121f-4257-9e19-4712713ff7a6")
+		)
+		(instances
+			(project "OS-servo-decoder-8"
+				(path "/b6ccf16f-5cc5-4d5a-97fc-20f76ee5c73e"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 41.91)
+		(size 12.7 13.97)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 132 132 1)
+		)
+		(fill
+			(color 194 194 194 1.0000)
 		)
 		(uuid "7745b34c-3ce1-4fee-9e05-e2cc7dc8f5e5")
 		(property "Sheetname" "Buck"
-			(at 80.01 64.0584 0)
+			(at 130.175 47.371 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2102,56 +2578,27 @@
 			)
 		)
 		(property "Sheetfile" "Buck.kicad_sch"
-			(at 80.01 78.0546 0)
+			(at 127 56.4646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
-		(pin "VDC_in" passive
-			(at 80.01 67.31 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "3bd4bdec-9b6f-4963-b65d-936259cdf487")
-		)
-		(pin "GND" passive
-			(at 90.17 77.47 270)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "bddf4f02-f568-4287-bc3b-d1b2eeacc0aa")
-		)
-		(pin "5V" input
-			(at 101.6 71.12 0)
+		(pin "{AC}" input
+			(at 139.7 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "1379dd10-c6ad-4e2a-be2f-9a5962825d77")
-		)
-		(pin "5VA" passive
-			(at 101.6 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "3fab35a1-632e-46e0-8970-6f151ebc0eaa")
+			(uuid "19684b40-17d1-448b-89d2-ee70a15dc477")
 		)
 		(instances
-			(project "OS-servoDriver"
+			(project "OS-servo-decoder-8"
 				(path "/b6ccf16f-5cc5-4d5a-97fc-20f76ee5c73e"
 					(page "5")
 				)
@@ -2159,19 +2606,176 @@
 		)
 	)
 	(sheet
-		(at 139.7 30.48)
-		(size 12.7 13.97)
-		(fields_autoplaced yes)
+		(at 113.03 22.225)
+		(size 26.67 17.145)
 		(stroke
 			(width 0.1524)
 			(type solid)
+			(color 0 132 132 1)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 194 194 194 1.0000)
+		)
+		(uuid "8aee5905-988f-49c1-90ad-34157fd9867f")
+		(property "Sheetname" "Connector"
+			(at 121.412 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Connector.kicad_sch"
+			(at 113.03 39.9546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "{DCC}" output
+			(at 113.03 38.1 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "47188ebb-82b1-4963-be25-d4a6698624bb")
+		)
+		(pin "AC{AC}" output
+			(at 139.7 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5a5e7bbd-bd91-4772-a3fe-e5ffc625b289")
+		)
+		(instances
+			(project "OS-servo-decoder-8"
+				(path "/b6ccf16f-5cc5-4d5a-97fc-20f76ee5c73e"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 74.93 93.345)
+		(size 15.24 16.51)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 132 132 1)
+		)
+		(fill
+			(color 194 194 194 1.0000)
+		)
+		(uuid "9fc71410-1a3a-46d4-9491-df4726f9696b")
+		(property "Sheetname" "relay3"
+			(at 80.899 95.504 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "relayConnector.kicad_sch"
+			(at 74.93 110.4396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "{relays}" input
+			(at 90.17 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ba159f2b-77d9-4576-a464-4e1d975a9a56")
+		)
+		(instances
+			(project "OS-servo-decoder-8"
+				(path "/b6ccf16f-5cc5-4d5a-97fc-20f76ee5c73e"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 75.565 54.61)
+		(size 14.605 16.51)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 132 132 1)
+		)
+		(fill
+			(color 194 194 194 1.0000)
+		)
+		(uuid "a92d76ee-95c2-41d2-aed8-d99e89593da6")
+		(property "Sheetname" "relay1"
+			(at 81.534 56.769 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "relayConnector.kicad_sch"
+			(at 75.565 71.7046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "{relays}" input
+			(at 90.17 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9d810d3d-2fd4-4fd3-9ce2-1473e4a2f4b1")
+		)
+		(instances
+			(project "OS-servo-decoder-8"
+				(path "/b6ccf16f-5cc5-4d5a-97fc-20f76ee5c73e"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 166.37 96.52)
+		(size 15.24 15.24)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 132 132 1)
+		)
+		(fill
+			(color 194 194 194 1.0000)
 		)
 		(uuid "dccf563b-118f-4f26-a255-e22b406628ac")
 		(property "Sheetname" "servo5-6"
-			(at 139.7 29.7684 0)
+			(at 167.386 109.728 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2180,16 +2784,17 @@
 			)
 		)
 		(property "Sheetfile" "servo.kicad_sch"
-			(at 139.7 45.0346 0)
+			(at 166.37 104.0896 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(pin "{servo}" input
-			(at 146.05 44.45 270)
+			(at 166.37 104.14 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2199,7 +2804,7 @@
 			(uuid "4219574f-2c2c-40be-bdc9-9e03b1f10671")
 		)
 		(instances
-			(project "OS-servoDriver"
+			(project "OS-servo-decoder-8"
 				(path "/b6ccf16f-5cc5-4d5a-97fc-20f76ee5c73e"
 					(page "9")
 				)
@@ -2207,19 +2812,19 @@
 		)
 	)
 	(sheet
-		(at 161.29 30.48)
-		(size 12.7 13.97)
-		(fields_autoplaced yes)
+		(at 166.37 113.03)
+		(size 15.24 15.24)
 		(stroke
 			(width 0.1524)
 			(type solid)
+			(color 0 132 132 1)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 194 194 194 1.0000)
 		)
 		(uuid "e0e0c5a0-a85f-4fe0-a4b2-cf2525a23997")
 		(property "Sheetname" "servo7-8"
-			(at 161.29 29.7684 0)
+			(at 166.878 125.222 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2228,16 +2833,17 @@
 			)
 		)
 		(property "Sheetfile" "servo.kicad_sch"
-			(at 161.29 45.0346 0)
+			(at 166.37 120.5996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(pin "{servo}" input
-			(at 166.37 44.45 270)
+			(at 166.37 120.65 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2247,7 +2853,7 @@
 			(uuid "07545f50-fb29-4440-9dbc-618b108f1d10")
 		)
 		(instances
-			(project "OS-servoDriver"
+			(project "OS-servo-decoder-8"
 				(path "/b6ccf16f-5cc5-4d5a-97fc-20f76ee5c73e"
 					(page "10")
 				)
@@ -2255,19 +2861,19 @@
 		)
 	)
 	(sheet
-		(at 119.38 72.39)
-		(size 34.29 36.83)
-		(fields_autoplaced yes)
+		(at 113.03 57.785)
+		(size 26.67 47.625)
 		(stroke
 			(width 0.1524)
 			(type solid)
+			(color 0 132 132 1)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 194 194 194 1.0000)
 		)
 		(uuid "e54a5306-d8a9-4407-bf5c-e8c3485c5b77")
 		(property "Sheetname" "atmega"
-			(at 119.38 71.6784 0)
+			(at 122.174 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2276,86 +2882,17 @@
 			)
 		)
 		(property "Sheetfile" "atmega.kicad_sch"
-			(at 119.38 109.8046 0)
+			(at 113.03 100.9146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
-		)
-		(pin "5V" passive
-			(at 152.4 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "8324c2d1-e2b8-44c2-a253-2f3df7078096")
-		)
-		(pin "GND" passive
-			(at 137.16 109.22 270)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "54fd2146-f6f8-47c7-9b62-a23f900eaeb1")
-		)
-		(pin "bus2{servo}" input
-			(at 132.08 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "fc16c25d-aa86-4ef6-bbc7-d06531aa62c6")
-		)
-		(pin "bus1{servo}" input
-			(at 129.54 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "784c7291-a15a-423d-b7de-5825792bbb15")
-		)
-		(pin "bus3{servo}" input
-			(at 134.62 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "c12be5df-b907-4b22-8d1c-3ba4c6c2c5b2")
-		)
-		(pin "bus4{servo}" input
-			(at 137.16 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "e32ff971-c654-4d34-b513-fa1c4d52b90c")
-		)
-		(pin "{switches}" input
-			(at 153.67 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "6cc8c944-e37d-472c-b25a-d2c192b05420")
 		)
 		(pin "DCC" input
-			(at 119.38 104.14 180)
+			(at 113.03 60.96 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2364,10 +2901,129 @@
 			)
 			(uuid "ebb290bc-ebf2-4fc9-b399-86dbc17ceeb8")
 		)
+		(pin "{I2C}" bidirectional
+			(at 139.7 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "916792a2-1cb6-468e-a189-48f5981ac7e0")
+		)
+		(pin "{switches}" input
+			(at 139.7 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "dd1b9250-28fe-44d6-84bf-9841e69bf1d4")
+		)
 		(instances
-			(project "OS-servoDriver"
+			(project "OS-servo-decoder-8"
 				(path "/b6ccf16f-5cc5-4d5a-97fc-20f76ee5c73e"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 147.32 68.58)
+		(size 13.97 60.325)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 132 132 1)
+		)
+		(fill
+			(color 194 194 194 1.0000)
+		)
+		(uuid "faffb7b1-3276-4b43-9efe-ee08046e2b65")
+		(property "Sheetname" "PCA9685"
+			(at 149.86 79.248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PCA9685.kicad_sch"
+			(at 147.32 143.4596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "bus4{servo}" output
+			(at 161.29 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "30ab4b83-137d-4b9b-beb3-7eaa7ede7a7e")
+		)
+		(pin "{I2C}" bidirectional
+			(at 147.32 93.98 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f5abd1d5-2653-43ed-bd9c-2dcc70d0f242")
+		)
+		(pin "bus3{servo}" output
+			(at 161.29 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "21702437-28db-4e2f-9cf0-1dc96af4d4f5")
+		)
+		(pin "bus1{servo}" output
+			(at 161.29 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7b447e63-b29f-422f-bd05-e898e687acbb")
+		)
+		(pin "bus2{servo}" output
+			(at 161.29 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c2a1538f-5118-4f1b-857a-560f65207b60")
+		)
+		(pin "uln[1..8]" output
+			(at 147.32 111.76 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2496ad48-1c56-485a-b6e6-e40ca237c26e")
+		)
+		(instances
+			(project "OS-servo-decoder-8"
+				(path "/b6ccf16f-5cc5-4d5a-97fc-20f76ee5c73e"
+					(page "16")
 				)
 			)
 		)

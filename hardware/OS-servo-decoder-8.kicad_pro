@@ -570,7 +570,13 @@
       "dashed_lines_gap_length_ratio": 3.0,
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
-      "field_names": [],
+      "field_names": [
+        {
+          "name": "JLCPCB Part#",
+          "url": false,
+          "visible": false
+        }
+      ],
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
@@ -649,8 +655,32 @@
       "servo7-8"
     ],
     [
-      "0c27c8b7-3734-4129-8cd0-d3d033ef2608",
-      "D_bridge"
+      "0fe20f89-267d-492d-b8ed-25c377e5c21f",
+      "ULN2803"
+    ],
+    [
+      "8aee5905-988f-49c1-90ad-34157fd9867f",
+      "Connector"
+    ],
+    [
+      "a92d76ee-95c2-41d2-aed8-d99e89593da6",
+      "relay1"
+    ],
+    [
+      "6a313f99-4f91-48d5-8f90-ee9987c0a938",
+      "relay2"
+    ],
+    [
+      "9fc71410-1a3a-46d4-9491-df4726f9696b",
+      "relay3"
+    ],
+    [
+      "74c6299e-03df-4443-bb9d-5ea65c4f1a93",
+      "relay4"
+    ],
+    [
+      "faffb7b1-3276-4b43-9efe-ee08046e2b65",
+      "PCA9685"
     ]
   ],
   "text_variables": {}
