@@ -712,6 +712,184 @@
 				)
 			)
 		)
+		(symbol "custom_kicad_lib_sk:LED"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Part#" "C2296"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "custom_kicad_lib_sk:tactile_SMD_6mm"
 			(pin_numbers hide)
 			(pin_names
@@ -866,6 +1044,126 @@
 				)
 			)
 		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_names
@@ -962,15 +1260,165 @@
 				)
 			)
 		)
+		(symbol "resistors_0603:R_1k_0603"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1k"
+				(at 2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "custom_kicad_lib_sk:R_0603_smalltext"
+				(at 2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Part#" "C21190"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_1k_0603_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1k_0603_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
-		(at 76.2 90.17)
+		(at 41.91 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5cefbc88-fb4d-48de-b80b-176267f2634f")
+	)
+	(junction
+		(at 41.91 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "603e7568-c1e0-485a-811d-07f17ac632ae")
+	)
+	(junction
+		(at 41.91 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "674e0065-993a-4bf9-993c-02e163965e0d")
+	)
+	(junction
+		(at 41.91 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "769a93a3-a0e0-4576-8ea5-8cfda12df2ce")
+	)
+	(junction
+		(at 41.91 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76fd9120-75a2-4cbe-83ca-d4e0a2b06aec")
+	)
+	(junction
+		(at 41.91 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aad74399-286d-48b0-ad1a-5fc18d5a88be")
+	)
+	(junction
+		(at 88.9 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ada0b55c-cd32-4fdc-8d80-b4bdf5a17f37")
 	)
+	(junction
+		(at 41.91 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc6229e7-2a20-4a04-81b1-b5b91cb3a43d")
+	)
 	(bus_entry
-		(at 40.64 76.2)
+		(at 74.93 54.61)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -979,7 +1427,7 @@
 		(uuid "20796fa4-d1c1-4c90-b938-6135d81bab41")
 	)
 	(bus_entry
-		(at 40.64 78.74)
+		(at 74.93 57.15)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -987,18 +1435,9 @@
 		)
 		(uuid "569325dd-8787-48b2-8395-ffd28e9ed28e")
 	)
-	(bus_entry
-		(at 40.64 73.66)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb06ec52-57c2-4ef0-a773-01ed8456cdc0")
-	)
 	(bus
 		(pts
-			(xy 40.64 76.2) (xy 40.64 78.74)
+			(xy 74.93 54.61) (xy 74.93 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1008,7 +1447,27 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 81.28) (xy 50.8 81.28)
+			(xy 69.85 80.01) (xy 90.17 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "104d55c0-d406-4c53-80df-ecc5db91f3e2")
+	)
+	(wire
+		(pts
+			(xy 41.91 77.47) (xy 41.91 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11e8bf9f-8365-48de-82c3-33f755bdbec5")
+	)
+	(wire
+		(pts
+			(xy 77.47 59.69) (xy 87.63 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1018,27 +1477,107 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 82.55) (xy 77.47 82.55)
+			(xy 41.91 80.01) (xy 41.91 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "28f58743-f783-4076-9df5-9e8a7f66d108")
+		(uuid "153916ae-248c-428e-a94d-7f1144d5dd01")
 	)
 	(wire
 		(pts
-			(xy 69.85 87.63) (xy 77.47 87.63)
+			(xy 41.91 85.09) (xy 41.91 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3926609d-978a-48e0-b019-dd2580f14d63")
+		(uuid "17c36b9a-9e93-429b-a7db-b70c49b77e04")
+	)
+	(wire
+		(pts
+			(xy 69.85 69.85) (xy 90.17 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "220aed97-95e1-482d-b86f-02526cc11eaa")
+	)
+	(wire
+		(pts
+			(xy 41.91 87.63) (xy 49.53 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28607386-45c3-414e-a07a-e1c4b4814818")
+	)
+	(wire
+		(pts
+			(xy 41.91 82.55) (xy 41.91 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "329911e1-eb59-48f5-94ce-a2bade32833c")
+	)
+	(wire
+		(pts
+			(xy 69.85 85.09) (xy 90.17 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ac4ff95-ebf2-495b-9c4a-9e47bf88e17c")
+	)
+	(wire
+		(pts
+			(xy 41.91 72.39) (xy 49.53 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f0f5a21-7d60-41c5-a909-b2ec232c6829")
+	)
+	(wire
+		(pts
+			(xy 54.61 85.09) (xy 62.23 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f3220e7-c6f6-4af7-85eb-f988994a1aa1")
+	)
+	(wire
+		(pts
+			(xy 69.85 82.55) (xy 90.17 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ff4b1dc-8374-45da-b2b6-79e3a1915802")
+	)
+	(wire
+		(pts
+			(xy 41.91 69.85) (xy 49.53 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e2af87e-af1e-4666-a43b-b12de9da16ff")
 	)
 	(bus
 		(pts
-			(xy 40.64 71.12) (xy 40.64 73.66)
+			(xy 74.93 49.53) (xy 74.93 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1048,13 +1587,53 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 78.74) (xy 50.8 78.74)
+			(xy 77.47 57.15) (xy 87.63 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "52ad180a-090c-4b3b-8b91-2a6fd79ab34f")
+	)
+	(wire
+		(pts
+			(xy 41.91 67.31) (xy 41.91 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5410c244-c730-4a45-ab09-0e78373efd4f")
+	)
+	(wire
+		(pts
+			(xy 54.61 72.39) (xy 62.23 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54c45a8b-3946-414a-90f9-cf5081a99e43")
+	)
+	(wire
+		(pts
+			(xy 69.85 77.47) (xy 90.17 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "580ad6d7-ac63-4560-b006-f958f5b0f173")
+	)
+	(wire
+		(pts
+			(xy 41.91 82.55) (xy 49.53 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59fa1ee4-2d58-4bbd-a337-6ac3b8056f79")
 	)
 	(wire
 		(pts
@@ -1068,17 +1647,77 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 69.85) (xy 77.47 69.85)
+			(xy 54.61 77.47) (xy 62.23 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "69868776-2dec-4fd3-bb01-6fcfa42f5338")
+		(uuid "61cd0063-cdd5-4790-b582-f6bdc4523747")
 	)
 	(wire
 		(pts
-			(xy 76.2 90.17) (xy 77.47 90.17)
+			(xy 41.91 74.93) (xy 41.91 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6224bf19-806f-4783-9942-9af94e0589b1")
+	)
+	(wire
+		(pts
+			(xy 41.91 77.47) (xy 49.53 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66aa56c1-aef6-4eba-b827-bc4ff569893f")
+	)
+	(wire
+		(pts
+			(xy 54.61 82.55) (xy 62.23 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aee3b09-848b-4843-948b-6ba5b5f96406")
+	)
+	(wire
+		(pts
+			(xy 69.85 87.63) (xy 90.17 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e15bdd0-7b55-4db4-9805-9d26a9406580")
+	)
+	(wire
+		(pts
+			(xy 41.91 69.85) (xy 41.91 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "757221dc-c8cc-4ffd-8158-8e09b77abdfd")
+	)
+	(wire
+		(pts
+			(xy 41.91 85.09) (xy 49.53 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76611ece-540f-4933-a336-6fe9b0660835")
+	)
+	(wire
+		(pts
+			(xy 88.9 90.17) (xy 90.17 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1088,23 +1727,33 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 76.2) (xy 50.8 76.2)
+			(xy 41.91 72.39) (xy 41.91 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "81ed1452-f905-4337-9fc1-ffddfcaa388f")
+		(uuid "7b5aaaf7-b609-46c1-aee2-ce6c4ac2e1eb")
 	)
 	(wire
 		(pts
-			(xy 69.85 72.39) (xy 77.47 72.39)
+			(xy 54.61 74.93) (xy 62.23 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "936d6079-dbb2-433d-b006-6f71b1fa288d")
+		(uuid "8316c111-b733-4475-a09d-bf3894bb8ceb")
+	)
+	(wire
+		(pts
+			(xy 41.91 80.01) (xy 49.53 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "886809cd-b0da-434c-a147-08c8a56a4124")
 	)
 	(wire
 		(pts
@@ -1118,7 +1767,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 90.17) (xy 76.2 92.71)
+			(xy 88.9 90.17) (xy 88.9 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1128,7 +1777,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 67.31) (xy 76.2 90.17)
+			(xy 88.9 67.31) (xy 88.9 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1138,53 +1787,43 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 74.93) (xy 77.47 74.93)
+			(xy 41.91 74.93) (xy 49.53 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b9f9a9dc-1305-46d6-9a5c-fbc91eae72f9")
-	)
-	(bus
-		(pts
-			(xy 40.64 73.66) (xy 40.64 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbd352d3-8fb0-4ff3-9ab9-390a1f088be3")
+		(uuid "ad4eaa18-b9a5-4f35-a978-2ef5145f5f3d")
 	)
 	(wire
 		(pts
-			(xy 69.85 77.47) (xy 77.47 77.47)
+			(xy 54.61 87.63) (xy 62.23 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bf405446-835b-495a-919f-764f1804ccbb")
+		(uuid "b0e197fc-17c1-4c69-b68d-1431f4fd288a")
 	)
 	(wire
 		(pts
-			(xy 76.2 67.31) (xy 77.47 67.31)
+			(xy 69.85 74.93) (xy 90.17 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be845b40-a8f0-48e8-a4fc-ac7a05f47a6d")
+	)
+	(wire
+		(pts
+			(xy 88.9 67.31) (xy 90.17 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cbe272b4-d7c6-42ce-83a0-b6a00eb96037")
-	)
-	(wire
-		(pts
-			(xy 69.85 80.01) (xy 77.47 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfb5a6c7-1079-42ec-9c24-995b81ed6c84")
 	)
 	(wire
 		(pts
@@ -1198,13 +1837,43 @@
 	)
 	(bus
 		(pts
-			(xy 39.37 71.12) (xy 40.64 71.12)
+			(xy 73.66 49.53) (xy 74.93 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e17742a0-e1c6-45d2-9e0e-9a3cc11b8a07")
+	)
+	(wire
+		(pts
+			(xy 54.61 69.85) (xy 62.23 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0d8737f-445e-4703-afb5-dd5638bee70e")
+	)
+	(wire
+		(pts
+			(xy 69.85 72.39) (xy 90.17 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0d98af9-6e1d-4119-a567-261f93986be9")
+	)
+	(wire
+		(pts
+			(xy 54.61 80.01) (xy 62.23 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f598cee7-b5e0-49e7-96ad-8e7d7efbcc58")
 	)
 	(wire
 		(pts
@@ -1216,19 +1885,8 @@
 		)
 		(uuid "fd781002-36a3-469c-8505-0f310f4402f2")
 	)
-	(wire
-		(pts
-			(xy 69.85 85.09) (xy 77.47 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdca8674-e26d-4492-9fa3-b493ede5f20f")
-	)
 	(label "sw3"
-		(at 69.85 74.93 0)
-		(fields_autoplaced yes)
+		(at 83.82 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1237,20 +1895,8 @@
 		)
 		(uuid "2bd33d63-7f77-4738-89dc-a9616da366ab")
 	)
-	(label "sw[1..8]"
-		(at 50.8 76.2 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3fa819e7-b473-4e82-b73e-3965d3d23c30")
-	)
 	(label "conf"
 		(at 60.96 107.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1260,8 +1906,7 @@
 		(uuid "520b8fe8-70f7-45b1-9524-022d85993eeb")
 	)
 	(label "sw1"
-		(at 69.85 69.85 0)
-		(fields_autoplaced yes)
+		(at 83.82 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1271,8 +1916,7 @@
 		(uuid "5b4c31a4-ff16-4796-b5c2-f6af6786e650")
 	)
 	(label "sw2"
-		(at 69.85 72.39 0)
-		(fields_autoplaced yes)
+		(at 83.82 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1282,8 +1926,7 @@
 		(uuid "61ddaff3-905a-4730-9808-583b3f139c18")
 	)
 	(label "conf"
-		(at 50.8 78.74 180)
-		(fields_autoplaced yes)
+		(at 87.63 57.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1293,8 +1936,7 @@
 		(uuid "6798ea9e-b554-4089-8735-b24ab1f9d9fd")
 	)
 	(label "sw8"
-		(at 69.85 87.63 0)
-		(fields_autoplaced yes)
+		(at 83.82 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1305,7 +1947,6 @@
 	)
 	(label "toggle"
 		(at 60.96 115.57 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1315,8 +1956,7 @@
 		(uuid "92ff872a-8b94-485a-a965-26b276f6f9d2")
 	)
 	(label "sw4"
-		(at 69.85 77.47 0)
-		(fields_autoplaced yes)
+		(at 83.82 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1326,8 +1966,7 @@
 		(uuid "9909c8b6-1777-4d13-801f-e524e5995b3f")
 	)
 	(label "sw5"
-		(at 69.85 80.01 0)
-		(fields_autoplaced yes)
+		(at 83.82 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1337,8 +1976,7 @@
 		(uuid "b9740195-acea-40f8-8635-919bf4552ef8")
 	)
 	(label "sw7"
-		(at 69.85 85.09 0)
-		(fields_autoplaced yes)
+		(at 83.82 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1348,8 +1986,7 @@
 		(uuid "c20c70fb-a175-4298-aa96-37b07b78d9c4")
 	)
 	(label "sw6"
-		(at 69.85 82.55 0)
-		(fields_autoplaced yes)
+		(at 83.82 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1359,8 +1996,7 @@
 		(uuid "c3b84b2a-3c9e-4489-bd0a-d499c5affd78")
 	)
 	(label "toggle"
-		(at 50.8 81.28 180)
-		(fields_autoplaced yes)
+		(at 87.63 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1371,8 +2007,7 @@
 	)
 	(hierarchical_label "{switches}"
 		(shape output)
-		(at 39.37 71.12 180)
-		(fields_autoplaced yes)
+		(at 73.66 49.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1380,6 +2015,377 @@
 			(justify right)
 		)
 		(uuid "52346b84-747c-4f50-89f7-28e846265dd1")
+	)
+	(symbol
+		(lib_id "resistors_0603:R_1k_0603")
+		(at 52.07 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "126a4462-86fc-4429-93ac-341861524724")
+		(property "Reference" "R508"
+			(at 46.228 86.614 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 56.388 86.614 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom_kicad_lib_sk:R_0603_smalltext"
+			(at 49.53 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part#" "C21190"
+			(at 52.07 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41a9e05c-4de7-415c-90c2-df0bf08edfb4")
+		)
+		(pin "2"
+			(uuid "07449ed4-5b61-43f9-9657-eef7e377dc51")
+		)
+		(instances
+			(project "OS-servo-decoder-8"
+				(path "/b6ccf16f-5cc5-4d5a-97fc-20f76ee5c73e/07a071ae-4229-4799-a566-e8588f45e628"
+					(reference "R508")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 41.91 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1fd5fc18-4cf1-40db-a273-7d2afc0230b0")
+		(property "Reference" "#PWR0502"
+			(at 41.91 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 41.91 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 41.91 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10a9a159-a2e6-4e25-ac0e-905969cf16a2")
+		)
+		(instances
+			(project ""
+				(path "/b6ccf16f-5cc5-4d5a-97fc-20f76ee5c73e/07a071ae-4229-4799-a566-e8588f45e628"
+					(reference "#PWR0502")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "resistors_0603:R_1k_0603")
+		(at 52.07 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2244456a-f235-47a3-aa62-5ec068b242d4")
+		(property "Reference" "R506"
+			(at 46.228 81.534 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 56.388 81.534 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom_kicad_lib_sk:R_0603_smalltext"
+			(at 49.53 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part#" "C21190"
+			(at 52.07 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e40cc3c5-c893-4ef9-9ec2-1b53cb18cd35")
+		)
+		(pin "2"
+			(uuid "62722759-e77e-45e9-ab1e-1f8fd61a06e7")
+		)
+		(instances
+			(project "OS-servo-decoder-8"
+				(path "/b6ccf16f-5cc5-4d5a-97fc-20f76ee5c73e/07a071ae-4229-4799-a566-e8588f45e628"
+					(reference "R506")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom_kicad_lib_sk:LED")
+		(at 66.04 80.01 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "27cd84cc-f815-4dae-8d6d-aa912ec3bab7")
+		(property "Reference" "D509"
+			(at 61.722 78.994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 62.992 78.994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 66.04 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 66.04 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part#" "C2296"
+			(at 66.04 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "26e0bc0c-9b53-4a0a-b375-6b4fb62b736c")
+		)
+		(pin "2"
+			(uuid "c7d636a9-a19a-4aab-8671-922a06c0530c")
+		)
+		(instances
+			(project "OS-servo-decoder-8"
+				(path "/b6ccf16f-5cc5-4d5a-97fc-20f76ee5c73e/07a071ae-4229-4799-a566-e8588f45e628"
+					(reference "D509")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "resistors_0603:R_1k_0603")
+		(at 52.07 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "282f532f-268a-46e1-87c5-22b3473db5cd")
+		(property "Reference" "R503"
+			(at 46.228 73.914 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 56.388 73.914 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom_kicad_lib_sk:R_0603_smalltext"
+			(at 49.53 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part#" "C21190"
+			(at 52.07 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7fc3f5b2-f112-4c7b-b279-48abcd96f1f6")
+		)
+		(pin "2"
+			(uuid "25fb9487-0635-4ba5-9260-9cf36c0e7027")
+		)
+		(instances
+			(project "OS-servo-decoder-8"
+				(path "/b6ccf16f-5cc5-4d5a-97fc-20f76ee5c73e/07a071ae-4229-4799-a566-e8588f45e628"
+					(reference "R503")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1442,6 +2448,618 @@
 			(project "OS-servoDriver"
 				(path "/b6ccf16f-5cc5-4d5a-97fc-20f76ee5c73e/07a071ae-4229-4799-a566-e8588f45e628"
 					(reference "#PWR0601")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom_kicad_lib_sk:LED")
+		(at 66.04 77.47 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "461700d9-ca85-4003-9ead-7f4d5b4b7b15")
+		(property "Reference" "D508"
+			(at 61.722 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 62.992 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 66.04 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 66.04 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part#" "C2296"
+			(at 66.04 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5155ec2a-4721-40bd-bd1e-f06b629f35b6")
+		)
+		(pin "2"
+			(uuid "0c13825d-82e6-408d-9478-7a2f3c81c29f")
+		)
+		(instances
+			(project "OS-servo-decoder-8"
+				(path "/b6ccf16f-5cc5-4d5a-97fc-20f76ee5c73e/07a071ae-4229-4799-a566-e8588f45e628"
+					(reference "D508")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom_kicad_lib_sk:LED")
+		(at 66.04 82.55 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5376f392-d257-4749-adf9-4a4db260bddb")
+		(property "Reference" "D510"
+			(at 61.722 81.534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 62.992 81.534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 66.04 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 66.04 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part#" "C2296"
+			(at 66.04 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a23137c3-c10c-421a-83af-0cce8580b383")
+		)
+		(pin "2"
+			(uuid "564e4f46-fb61-464a-bcc9-dce7d3cfaf0b")
+		)
+		(instances
+			(project "OS-servo-decoder-8"
+				(path "/b6ccf16f-5cc5-4d5a-97fc-20f76ee5c73e/07a071ae-4229-4799-a566-e8588f45e628"
+					(reference "D510")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "resistors_0603:R_1k_0603")
+		(at 52.07 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "567d1f75-59ae-4311-a9f6-d19f9987f247")
+		(property "Reference" "R507"
+			(at 46.228 84.074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 56.388 84.074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom_kicad_lib_sk:R_0603_smalltext"
+			(at 49.53 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part#" "C21190"
+			(at 52.07 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "884adf07-1bf7-49b9-9a45-db13d69abbbc")
+		)
+		(pin "2"
+			(uuid "fa40cf39-54af-4236-b928-424fa6eae3fe")
+		)
+		(instances
+			(project "OS-servo-decoder-8"
+				(path "/b6ccf16f-5cc5-4d5a-97fc-20f76ee5c73e/07a071ae-4229-4799-a566-e8588f45e628"
+					(reference "R507")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "resistors_0603:R_1k_0603")
+		(at 52.07 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6d83f510-5ccd-4379-a857-3d19c221b920")
+		(property "Reference" "R501"
+			(at 46.228 68.834 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 56.388 68.834 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom_kicad_lib_sk:R_0603_smalltext"
+			(at 49.53 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part#" "C21190"
+			(at 52.07 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76e66a1d-8daf-4852-bf39-1f0d674faf07")
+		)
+		(pin "2"
+			(uuid "a4072094-54dd-4b06-ac6c-2986830673bf")
+		)
+		(instances
+			(project ""
+				(path "/b6ccf16f-5cc5-4d5a-97fc-20f76ee5c73e/07a071ae-4229-4799-a566-e8588f45e628"
+					(reference "R501")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom_kicad_lib_sk:LED")
+		(at 66.04 69.85 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "74bbdc20-d775-435d-bcf7-05dc1405cc48")
+		(property "Reference" "D505"
+			(at 61.722 68.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 62.992 68.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 66.04 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 66.04 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part#" "C2296"
+			(at 66.04 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e9c9fe4-5a17-4bc7-b091-24bf383dde3f")
+		)
+		(pin "2"
+			(uuid "29c7ab9f-3f79-485f-97de-e6ed39ce05d6")
+		)
+		(instances
+			(project ""
+				(path "/b6ccf16f-5cc5-4d5a-97fc-20f76ee5c73e/07a071ae-4229-4799-a566-e8588f45e628"
+					(reference "D505")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "resistors_0603:R_1k_0603")
+		(at 52.07 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "74c4ccf4-f6a0-4425-a0e4-3c93507e7c2c")
+		(property "Reference" "R505"
+			(at 46.228 78.994 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 56.388 78.994 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom_kicad_lib_sk:R_0603_smalltext"
+			(at 49.53 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part#" "C21190"
+			(at 52.07 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7a0cb49-5dc1-4a40-94b2-9bbd5d32f912")
+		)
+		(pin "2"
+			(uuid "cf0cdc9f-b3cf-4159-8283-35edc39334fe")
+		)
+		(instances
+			(project "OS-servo-decoder-8"
+				(path "/b6ccf16f-5cc5-4d5a-97fc-20f76ee5c73e/07a071ae-4229-4799-a566-e8588f45e628"
+					(reference "R505")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "resistors_0603:R_1k_0603")
+		(at 52.07 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "819a7291-a627-4b55-a1f2-cc2bb2dffd6b")
+		(property "Reference" "R504"
+			(at 46.228 76.454 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 56.388 76.454 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom_kicad_lib_sk:R_0603_smalltext"
+			(at 49.53 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part#" "C21190"
+			(at 52.07 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c6287a5-29e2-42b5-8731-937b48cdf7a7")
+		)
+		(pin "2"
+			(uuid "c0180169-cb33-4056-8a8e-7e47cf63bdc3")
+		)
+		(instances
+			(project "OS-servo-decoder-8"
+				(path "/b6ccf16f-5cc5-4d5a-97fc-20f76ee5c73e/07a071ae-4229-4799-a566-e8588f45e628"
+					(reference "R504")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom_kicad_lib_sk:LED")
+		(at 66.04 74.93 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "824cf0e3-6206-4839-b63a-ee3f0492af7b")
+		(property "Reference" "D507"
+			(at 61.722 73.914 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 62.992 73.914 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 66.04 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 66.04 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part#" "C2296"
+			(at 66.04 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d62281a-a462-4038-ac53-433712c2d86e")
+		)
+		(pin "2"
+			(uuid "f9b6f7f3-47bf-4bd0-9089-66d386ef485a")
+		)
+		(instances
+			(project "OS-servo-decoder-8"
+				(path "/b6ccf16f-5cc5-4d5a-97fc-20f76ee5c73e/07a071ae-4229-4799-a566-e8588f45e628"
+					(reference "D507")
 					(unit 1)
 				)
 			)
@@ -1528,7 +3146,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 76.2 92.71 0)
+		(at 88.9 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1537,7 +3155,7 @@
 		(fields_autoplaced yes)
 		(uuid "bb21569b-df79-4683-8167-9ef17f476c53")
 		(property "Reference" "#PWR0501"
-			(at 76.2 99.06 0)
+			(at 88.9 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1546,7 +3164,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 76.2 97.79 0)
+			(at 88.9 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1554,7 +3172,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 92.71 0)
+			(at 88.9 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1563,7 +3181,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 92.71 0)
+			(at 88.9 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1572,7 +3190,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 92.71 0)
+			(at 88.9 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1672,6 +3290,83 @@
 		)
 	)
 	(symbol
+		(lib_id "custom_kicad_lib_sk:LED")
+		(at 66.04 85.09 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c94d0c5d-0c14-4620-aa66-240d5f2a74d5")
+		(property "Reference" "D511"
+			(at 61.722 84.074 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 62.992 84.074 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 66.04 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 66.04 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part#" "C2296"
+			(at 66.04 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5370bd80-64d8-4ddd-8981-6e3551994476")
+		)
+		(pin "2"
+			(uuid "a29d1397-81b2-485a-a6c7-d25bc218c5f1")
+		)
+		(instances
+			(project "OS-servo-decoder-8"
+				(path "/b6ccf16f-5cc5-4d5a-97fc-20f76ee5c73e/07a071ae-4229-4799-a566-e8588f45e628"
+					(reference "D511")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 83.82 107.95 0)
 		(mirror y)
@@ -1738,35 +3433,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x10")
-		(at 82.55 80.01 0)
-		(mirror x)
+		(lib_id "custom_kicad_lib_sk:LED")
+		(at 66.04 72.39 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e6c90535-3874-4a82-80a4-2cb65239c884")
-		(property "Reference" "J501"
-			(at 85.09 80.0101 0)
+		(uuid "cbf86fe8-06a2-45b7-9c9f-6e5eeadb76aa")
+		(property "Reference" "D506"
+			(at 61.722 71.374 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x10"
-			(at 85.09 77.4701 0)
+		(property "Value" "LED"
+			(at 62.992 71.374 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-10-2.54_1x10_P2.54mm_Horizontal"
-			(at 82.55 80.01 0)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 66.04 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1775,7 +3468,162 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 82.55 80.01 0)
+			(at 66.04 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 66.04 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part#" "C2296"
+			(at 66.04 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "317ee0cf-cfd6-4615-bd23-681f585e62e5")
+		)
+		(pin "2"
+			(uuid "e9e9aec2-778f-47d8-ba19-32fd4c9b94b8")
+		)
+		(instances
+			(project "OS-servo-decoder-8"
+				(path "/b6ccf16f-5cc5-4d5a-97fc-20f76ee5c73e/07a071ae-4229-4799-a566-e8588f45e628"
+					(reference "D506")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "resistors_0603:R_1k_0603")
+		(at 52.07 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "db6d22ec-b5ad-4df6-9ea7-87f4fdafaa7e")
+		(property "Reference" "R502"
+			(at 46.228 71.374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 56.388 71.374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom_kicad_lib_sk:R_0603_smalltext"
+			(at 49.53 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part#" "C21190"
+			(at 52.07 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91398576-c41c-4cd3-a262-e74c083e5ed9")
+		)
+		(pin "2"
+			(uuid "b807e1ce-b860-494d-9214-393f00e85ef6")
+		)
+		(instances
+			(project "OS-servo-decoder-8"
+				(path "/b6ccf16f-5cc5-4d5a-97fc-20f76ee5c73e/07a071ae-4229-4799-a566-e8588f45e628"
+					(reference "R502")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x10")
+		(at 95.25 80.01 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e6c90535-3874-4a82-80a4-2cb65239c884")
+		(property "Reference" "J501"
+			(at 97.79 80.0101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x10"
+			(at 97.79 77.4701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-10-2.54_1x10_P2.54mm_Horizontal"
+			(at 95.25 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1784,7 +3632,16 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 82.55 80.01 0)
+			(at 95.25 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part#" "C474928"
+			(at 95.25 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1826,6 +3683,83 @@
 			(project ""
 				(path "/b6ccf16f-5cc5-4d5a-97fc-20f76ee5c73e/07a071ae-4229-4799-a566-e8588f45e628"
 					(reference "J501")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom_kicad_lib_sk:LED")
+		(at 66.04 87.63 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fe630d70-65a4-4882-b9b6-695f199daee0")
+		(property "Reference" "D512"
+			(at 61.722 86.614 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 62.992 86.614 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 66.04 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 66.04 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part#" "C2296"
+			(at 66.04 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "830e7805-6d02-404d-9daa-db38cd6cef53")
+		)
+		(pin "2"
+			(uuid "7e3d74ae-6cdd-4549-b3c8-2a7091942743")
+		)
+		(instances
+			(project "OS-servo-decoder-8"
+				(path "/b6ccf16f-5cc5-4d5a-97fc-20f76ee5c73e/07a071ae-4229-4799-a566-e8588f45e628"
+					(reference "D512")
 					(unit 1)
 				)
 			)

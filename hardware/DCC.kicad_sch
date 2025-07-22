@@ -1415,7 +1415,6 @@
 	)
 	(label "B"
 		(at 99.06 95.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1426,7 +1425,6 @@
 	)
 	(label "A"
 		(at 99.06 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1438,7 +1436,6 @@
 	(hierarchical_label "DCC_TTL"
 		(shape output)
 		(at 161.29 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1450,7 +1447,6 @@
 	(hierarchical_label "{DCC}"
 		(shape input)
 		(at 92.71 83.82 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

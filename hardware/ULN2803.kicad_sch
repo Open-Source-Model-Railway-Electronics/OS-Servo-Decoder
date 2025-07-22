@@ -1254,7 +1254,6 @@
 	)
 	(label "uln3"
 		(at 154.94 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1265,7 +1264,6 @@
 	)
 	(label "2.pin2"
 		(at 130.81 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1276,7 +1274,6 @@
 	)
 	(label "uln2"
 		(at 154.94 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1287,7 +1284,6 @@
 	)
 	(label "uln5"
 		(at 154.94 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1298,7 +1294,6 @@
 	)
 	(label "4.pin2"
 		(at 130.81 91.44 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1309,7 +1304,6 @@
 	)
 	(label "uln4"
 		(at 154.94 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1320,7 +1314,6 @@
 	)
 	(label "3.pin1"
 		(at 130.81 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1331,7 +1324,6 @@
 	)
 	(label "4.pin1"
 		(at 130.81 88.9 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1342,7 +1334,6 @@
 	)
 	(label "3.pin2"
 		(at 130.81 96.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1353,7 +1344,6 @@
 	)
 	(label "uln1"
 		(at 154.94 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1364,7 +1354,6 @@
 	)
 	(label "uln6"
 		(at 154.94 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1375,7 +1364,6 @@
 	)
 	(label "1.pin2"
 		(at 130.81 106.68 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1386,7 +1374,6 @@
 	)
 	(label "uln7"
 		(at 154.94 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1397,7 +1384,6 @@
 	)
 	(label "2.pin1"
 		(at 130.81 99.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1408,7 +1394,6 @@
 	)
 	(label "1.pin1"
 		(at 130.81 104.14 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1419,7 +1404,6 @@
 	)
 	(label "uln8"
 		(at 154.94 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1431,7 +1415,6 @@
 	(hierarchical_label "4{relays}"
 		(shape output)
 		(at 118.11 86.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1443,7 +1426,6 @@
 	(hierarchical_label "uln[1..8]"
 		(shape input)
 		(at 168.91 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1455,7 +1437,6 @@
 	(hierarchical_label "1{relays}"
 		(shape output)
 		(at 118.11 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1467,7 +1448,6 @@
 	(hierarchical_label "3{relays}"
 		(shape output)
 		(at 118.11 91.44 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1479,7 +1459,6 @@
 	(hierarchical_label "2{relays}"
 		(shape output)
 		(at 118.11 96.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

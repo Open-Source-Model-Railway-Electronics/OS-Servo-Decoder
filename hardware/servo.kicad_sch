@@ -857,7 +857,6 @@
 	)
 	(label "pin1"
 		(at 134.62 77.47 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -868,7 +867,6 @@
 	)
 	(label "pin2"
 		(at 147.32 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -880,7 +878,6 @@
 	(hierarchical_label "{servo}"
 		(shape input)
 		(at 125.73 69.85 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

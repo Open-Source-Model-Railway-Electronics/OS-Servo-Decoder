@@ -367,7 +367,7 @@
 		)
 	)
 	(bus_entry
-		(at 97.79 82.55)
+		(at 116.84 82.55)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -376,23 +376,13 @@
 		(uuid "9bd75728-92df-491e-95b0-a0d2e11d5b8f")
 	)
 	(bus_entry
-		(at 97.79 87.63)
+		(at 116.84 87.63)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a8a20f8c-02cf-4cfb-aa1a-a2375f5b9fbb")
-	)
-	(wire
-		(pts
-			(xy 83.82 87.63) (xy 97.79 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3caa87a8-b614-4700-bd6c-b9f08965d1e5")
 	)
 	(wire
 		(pts
@@ -406,7 +396,7 @@
 	)
 	(bus
 		(pts
-			(xy 100.33 77.47) (xy 100.33 80.01)
+			(xy 119.38 77.47) (xy 119.38 80.01)
 		)
 		(stroke
 			(width 0)
@@ -416,13 +406,13 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 82.55) (xy 97.79 82.55)
+			(xy 83.82 82.55) (xy 116.84 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d07e878e-9b34-4d1c-b1d3-89befd8083e4")
+		(uuid "9c59f240-a658-44e8-b10a-f53631af173d")
 	)
 	(wire
 		(pts
@@ -434,9 +424,19 @@
 		)
 		(uuid "d2487b87-2064-47d5-a91f-a0e7b0d1bcdb")
 	)
+	(wire
+		(pts
+			(xy 83.82 87.63) (xy 116.84 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecdd85cb-efc7-4c41-83e7-8d8d554b5848")
+	)
 	(bus
 		(pts
-			(xy 100.33 80.01) (xy 100.33 85.09)
+			(xy 119.38 80.01) (xy 119.38 85.09)
 		)
 		(stroke
 			(width 0)
@@ -446,7 +446,7 @@
 	)
 	(bus
 		(pts
-			(xy 102.87 77.47) (xy 100.33 77.47)
+			(xy 121.92 77.47) (xy 119.38 77.47)
 		)
 		(stroke
 			(width 0)
@@ -455,8 +455,7 @@
 		(uuid "f3a8e811-bd72-450a-8f53-d84910ce2104")
 	)
 	(label "pin1"
-		(at 92.71 82.55 0)
-		(fields_autoplaced yes)
+		(at 111.76 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -466,8 +465,7 @@
 		(uuid "7d6ab9e0-16d2-42a8-8e48-3b34cc6d8a54")
 	)
 	(label "pin2"
-		(at 92.71 87.63 0)
-		(fields_autoplaced yes)
+		(at 111.76 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -478,8 +476,7 @@
 	)
 	(hierarchical_label "{relays}"
 		(shape input)
-		(at 102.87 77.47 0)
-		(fields_autoplaced yes)
+		(at 121.92 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
