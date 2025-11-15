@@ -1,5 +1,4 @@
 # OS-Servo-Decoders Manual
-Supports: OS-Servo-Decoder
 
 ## 📘 Introduction
 The OS-Servo-Decoder is a simple and robust DCC accessory decoder designed for driving up to 8 servo motors. It supports modern model railroads with flexible configuration options, external relay modules for polarity switching (optional) and direct control using both input switches, DCC accessory commands and locomotive functions (F1–F8).
@@ -8,16 +7,19 @@ The OS-Servo-Decoder is a simple and robust DCC accessory decoder designed for d
 
 ## 📚 Table of Contents
 
-1. [Features](#-features)
-2. [Connecting the Decoder](#-connecting-the-decoder)
-3. [Controlling the Servo Outputs](#-controlling-the-servo-outputs)
-4. [DCC Configuration Mode](#-dcc-configuration-mode)
-5. [Button Configuration Mode](#-button-configuration-mode)
-6. [Storing Servo Positions](#-storing-servo-positions)
-7. [Loco Function Modes](#-loco-function-modes)
-8. [Address Offset](#-address-offset)
-9. [Auto-Toggle Mode](#-auto-toggle-mode)
-10. [Summary](#-summary)
+- [OS-Servo-Decoders Manual](#os-servo-decoders-manual)
+  - [📘 Introduction](#-introduction)
+  - [📚 Table of Contents](#-table-of-contents)
+  - [🔧 Features](#-features)
+  - [🔌 Connecting the Decoder](#-connecting-the-decoder)
+  - [💪 Controlling the Servo Outputs](#-controlling-the-servo-outputs)
+  - [🛠️ DCC Configuration Mode](#️-dcc-configuration-mode)
+  - [🛠️ Button Configuration Mode](#️-button-configuration-mode)
+  - [🌟 Storing Servo Positions](#-storing-servo-positions)
+  - [🚗 Loco Function Modes](#-loco-function-modes)
+  - [⚖️ Address Offset](#️-address-offset)
+  - [⏰ Auto-Toggle Mode](#-auto-toggle-mode)
+  - [📊 Summary](#-summary)
 
 ---
 
